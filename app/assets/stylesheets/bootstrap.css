@@ -45,13 +45,14 @@ aside,
 details,
 figcaption,
 figure,
-footer,
+
 header,
 hgroup,
 nav,
 section {
   display: block;
 }
+
 
 audio,
 canvas,
@@ -222,6 +223,7 @@ textarea {
 }
 
 body {
+  height: 100%;
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;

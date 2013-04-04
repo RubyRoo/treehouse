@@ -7,6 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+
+
 <div class="navbar navbar-static-top">
   <div class="navbar navbar-inverse">
   <div class="navbar">
@@ -25,9 +28,16 @@
   </div>
 </div>
 
+
     <div class="container">
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
 <%= yield %>
 </div>
 
+
+
+
 </body>
 </html>
+
