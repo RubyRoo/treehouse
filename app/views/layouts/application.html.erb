@@ -7,8 +7,27 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="navbar navbar-static-top">
+  <div class="navbar navbar-inverse">
+  <div class="navbar">
+    <div class="navbar-inner">
+      <a class="brand" href="#">Treehouse</a>
+      <ul class="nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Link1</a></li>
+        <li><%= link_to "All Status", statuses_path %> </li>
+        <form class="navbar-search pull-left">
+          <input type="text" class="search-query" placeholder="Search">
+        </form>
+      </ul>
+    </div>
+  </div>
+  </div>
+</div>
 
+    <div class="container">
 <%= yield %>
+</div>
 
 </body>
 </html>
